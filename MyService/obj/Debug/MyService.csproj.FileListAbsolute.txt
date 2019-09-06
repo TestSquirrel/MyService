@@ -15,7 +15,6 @@ D:\squirrel\Project\MyService\MyService\bin\Debug\Squirrel.dll
 D:\squirrel\Project\MyService\MyService\bin\Debug\NuGet.Squirrel.pdb
 D:\squirrel\Project\MyService\MyService\bin\Debug\Splat.pdb
 D:\squirrel\Project\MyService\MyService\bin\Debug\Squirrel.pdb
-D:\squirrel\Project\MyService\MyService\obj\Debug\MyService.csprojAssemblyReference.cache
 D:\squirrel\Project\MyService\MyService\obj\Debug\MyService.csproj.CoreCompileInputs.cache
 D:\squirrel\Project\MyService\MyService\obj\Debug\MyService.csproj.CopyComplete
 D:\squirrel\Project\MyService\MyService\obj\Debug\MyService.exe

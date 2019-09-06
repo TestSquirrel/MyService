@@ -6,3 +6,26 @@
 2019-09-06 12:31:10> ReleasePackage: Removing unnecessary data
 2019-09-06 12:31:10> ReleasePackage: No release notes found in C:\Users\SSS\AppData\Local\SquirrelTemp\tempa\MyService.nuspec
 2019-09-06 12:31:11> Program: Building embedded zip file for Setup.exe
+2019-09-06 14:44:12> Program: Starting Squirrel Updater: --releasify MyService.1.0.2.nupkg
+2019-09-06 14:44:12> Program: Bootstrapper EXE found at:D:\squirrel\Project\MyService\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-09-06 14:44:12> Program: Creating release package: D:\squirrel\Project\MyService\Releases\MyService.1.0.2.nupkg
+2019-09-06 14:44:12> ReleasePackage: Creating release package: D:\squirrel\Project\MyService\Releases\MyService.1.0.2.nupkg => D:\squirrel\Project\MyService\Releases\MyService-1.0.2-full.nupkg
+2019-09-06 14:44:12> ReleasePackage: Extracting dependent packages: []
+2019-09-06 14:44:12> ReleasePackage: Removing unnecessary data
+2019-09-06 14:44:12> ReleasePackage: No release notes found in C:\Users\SSS\AppData\Local\SquirrelTemp\tempa\MyService.nuspec
+2019-09-06 14:44:12> DeltaPackageBuilder: Extracting .\Releases\MyService-1.0.1-full.nupkg and D:\squirrel\Project\MyService\Releases\MyService-1.0.2-full.nupkg into C:\Users\SSS\AppData\Local\SquirrelTemp\tempb
+2019-09-06 14:44:13> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.dll hasn't changed, writing dummy file
+2019-09-06 14:44:13> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.MsDelta.dll hasn't changed, writing dummy file
+2019-09-06 14:44:13> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.PatchApi.dll hasn't changed, writing dummy file
+2019-09-06 14:44:13> DeltaPackageBuilder: \lib\net45\Mono.Cecil.dll hasn't changed, writing dummy file
+2019-09-06 14:44:13> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Mdb.dll hasn't changed, writing dummy file
+2019-09-06 14:44:13> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Pdb.dll hasn't changed, writing dummy file
+2019-09-06 14:44:13> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Rocks.dll hasn't changed, writing dummy file
+2019-09-06 14:44:13> DeltaPackageBuilder: Delta patching C:\Users\SSS\AppData\Local\SquirrelTemp\tempa\lib\net45\MyService.exe => C:\Users\SSS\AppData\Local\SquirrelTemp\tempb\lib\net45\MyService.exe
+2019-09-06 14:44:13> DeltaPackageBuilder: \lib\net45\MyService.exe.config hasn't changed, writing dummy file
+2019-09-06 14:44:13> DeltaPackageBuilder: Delta patching C:\Users\SSS\AppData\Local\SquirrelTemp\tempa\lib\net45\MyService_ExecutionStub.exe => C:\Users\SSS\AppData\Local\SquirrelTemp\tempb\lib\net45\MyService_ExecutionStub.exe
+2019-09-06 14:44:13> DeltaPackageBuilder: \lib\net45\NuGet.Squirrel.dll hasn't changed, writing dummy file
+2019-09-06 14:44:13> DeltaPackageBuilder: \lib\net45\SharpCompress.dll hasn't changed, writing dummy file
+2019-09-06 14:44:13> DeltaPackageBuilder: \lib\net45\Splat.dll hasn't changed, writing dummy file
+2019-09-06 14:44:13> DeltaPackageBuilder: \lib\net45\Squirrel.dll hasn't changed, writing dummy file
+2019-09-06 14:44:14> Program: Building embedded zip file for Setup.exe

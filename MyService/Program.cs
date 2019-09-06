@@ -36,9 +36,10 @@ namespace MyService
             //using (var mgr = new UpdateManager("D:\\squirrel\\Project\\MyApp\\Releases"))
             //{
             //    await mgr.UpdateApp();
-            //} 
+            //} testing 
             try
             {
+
                 using (var mgr = UpdateManager.GitHubUpdateManager("https://github.com/TestSquirrel/MyService", prerelease: true /*accessToken: "672e669504503a78358577280343cbdd2fb19dea"*/))
                 {
                     await mgr.Result.UpdateApp();
