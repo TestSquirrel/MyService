@@ -36,7 +36,7 @@ namespace MyService
             //using (var mgr = new UpdateManager("D:\\squirrel\\Project\\MyApp\\Releases"))
             //{
             //    await mgr.UpdateApp();
-            //} testing 
+            //} 
             try
             {
 
