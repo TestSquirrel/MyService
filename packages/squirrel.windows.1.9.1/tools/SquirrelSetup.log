@@ -1,0 +1,8 @@
+﻿2019-09-06 12:31:10> Program: Starting Squirrel Updater: --releasify MyService.1.0.1.nupkg
+2019-09-06 12:31:10> Program: Bootstrapper EXE found at:D:\squirrel\Project\MyService\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-09-06 12:31:10> Program: Creating release package: D:\squirrel\Project\MyService\Releases\MyService.1.0.1.nupkg
+2019-09-06 12:31:10> ReleasePackage: Creating release package: D:\squirrel\Project\MyService\Releases\MyService.1.0.1.nupkg => D:\squirrel\Project\MyService\Releases\MyService-1.0.1-full.nupkg
+2019-09-06 12:31:10> ReleasePackage: Extracting dependent packages: []
+2019-09-06 12:31:10> ReleasePackage: Removing unnecessary data
+2019-09-06 12:31:10> ReleasePackage: No release notes found in C:\Users\SSS\AppData\Local\SquirrelTemp\tempa\MyService.nuspec
+2019-09-06 12:31:11> Program: Building embedded zip file for Setup.exe

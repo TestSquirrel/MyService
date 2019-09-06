@@ -17,11 +17,11 @@ namespace MyService
         static void Main()
         {
             ServiceBase[] ServicesToRun;
+            Update();
             ServicesToRun = new ServiceBase[]
             {
                 new Service1()
-            };
-            Update();
+            };           
             ServiceBase.Run(ServicesToRun);
         }
         static async Task Update()
@@ -37,10 +37,9 @@ namespace MyService
             //{
             //    await mgr.UpdateApp();
             //} 
-            //https://github.com/TestSquirrel/MyApp
             try
             {
-                using (var mgr = UpdateManager.GitHubUpdateManager("https://github.com/TestSquirrel/MyApp", prerelease: true /*accessToken: "672e669504503a78358577280343cbdd2fb19dea"*/))
+                using (var mgr = UpdateManager.GitHubUpdateManager("https://github.com/TestSquirrel/MyService", prerelease: true /*accessToken: "672e669504503a78358577280343cbdd2fb19dea"*/))
                 {
                     await mgr.Result.UpdateApp();
                 }
