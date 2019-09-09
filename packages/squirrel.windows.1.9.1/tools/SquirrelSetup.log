@@ -29,3 +29,197 @@
 2019-09-06 14:44:13> DeltaPackageBuilder: \lib\net45\Splat.dll hasn't changed, writing dummy file
 2019-09-06 14:44:13> DeltaPackageBuilder: \lib\net45\Squirrel.dll hasn't changed, writing dummy file
 2019-09-06 14:44:14> Program: Building embedded zip file for Setup.exe
+2019-09-06 16:29:55> Program: Starting Squirrel Updater: --releasify MyService.1.0.27.nupkg
+2019-09-06 16:29:55> Program: Bootstrapper EXE found at:D:\squirrel\Project\MyService\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-09-06 16:29:55> Unhandled exception: System.IO.FileNotFoundException: Could not find file 'MyService.1.0.27.nupkg'.
+File name: 'MyService.1.0.27.nupkg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   at System.IO.File.Copy(String sourceFileName, String destFileName, Boolean overwrite)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, String frameworkVersion, Boolean generateDeltas)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+2019-09-06 16:30:06> Program: Starting Squirrel Updater: --releasify MyService.1.0.0.27.nupkg
+2019-09-06 16:30:06> Program: Bootstrapper EXE found at:D:\squirrel\Project\MyService\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-09-06 16:30:06> Program: Creating release package: D:\squirrel\Project\MyService\Releases\MyService.1.0.0.27.nupkg
+2019-09-06 16:30:07> Unhandled exception: System.Exception: Your package version is currently 1.0.0.27, which is *not* SemVer-compatible, change this to be a SemVer version number
+   at Squirrel.ReleasePackage.CreateReleasePackage(String outputFile, String packagesRootDir, Func`2 releaseNotesProcessor, Action`1 contentsPostProcessHook)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, String frameworkVersion, Boolean generateDeltas)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+2019-09-06 16:31:08> Program: Starting Squirrel Updater: --releasify MyService.1.0.0.27.nupkg
+2019-09-06 16:31:08> Program: Bootstrapper EXE found at:D:\squirrel\Project\MyService\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-09-06 16:31:08> Program: Creating release package: D:\squirrel\Project\MyService\Releases\MyService.1.0.0.27.nupkg
+2019-09-06 16:31:08> Unhandled exception: System.Exception: Your package version is currently 1.0.0.27, which is *not* SemVer-compatible, change this to be a SemVer version number
+   at Squirrel.ReleasePackage.CreateReleasePackage(String outputFile, String packagesRootDir, Func`2 releaseNotesProcessor, Action`1 contentsPostProcessHook)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, String frameworkVersion, Boolean generateDeltas)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+2019-09-06 16:32:49> Program: Starting Squirrel Updater: --releasify MyService.1.0.0.27.nupkg
+2019-09-06 16:32:49> Program: Bootstrapper EXE found at:D:\squirrel\Project\MyService\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-09-06 16:32:49> Program: Creating release package: D:\squirrel\Project\MyService\Releases\MyService.1.0.0.27.nupkg
+2019-09-06 16:32:49> Unhandled exception: System.Exception: Your package version is currently 1.0.0.27, which is *not* SemVer-compatible, change this to be a SemVer version number
+   at Squirrel.ReleasePackage.CreateReleasePackage(String outputFile, String packagesRootDir, Func`2 releaseNotesProcessor, Action`1 contentsPostProcessHook)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, String frameworkVersion, Boolean generateDeltas)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+2019-09-06 16:35:32> Program: Starting Squirrel Updater: --releasify MyService.1.0.0.3.nupkg
+2019-09-06 16:35:32> Program: Bootstrapper EXE found at:D:\squirrel\Project\MyService\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-09-06 16:35:32> Program: Creating release package: D:\squirrel\Project\MyService\Releases\MyService.1.0.0.27.nupkg
+2019-09-06 16:35:32> Unhandled exception: System.Exception: Your package version is currently 1.0.0.27, which is *not* SemVer-compatible, change this to be a SemVer version number
+   at Squirrel.ReleasePackage.CreateReleasePackage(String outputFile, String packagesRootDir, Func`2 releaseNotesProcessor, Action`1 contentsPostProcessHook)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, String frameworkVersion, Boolean generateDeltas)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+2019-09-06 16:36:46> Program: Starting Squirrel Updater: --releasify MyService.1.0.3.nupkg
+2019-09-06 16:36:46> Program: Bootstrapper EXE found at:D:\squirrel\Project\MyService\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-09-06 16:36:46> Program: Creating release package: D:\squirrel\Project\MyService\Releases\MyService.1.0.0.27.nupkg
+2019-09-06 16:36:46> Unhandled exception: System.Exception: Your package version is currently 1.0.0.27, which is *not* SemVer-compatible, change this to be a SemVer version number
+   at Squirrel.ReleasePackage.CreateReleasePackage(String outputFile, String packagesRootDir, Func`2 releaseNotesProcessor, Action`1 contentsPostProcessHook)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, String frameworkVersion, Boolean generateDeltas)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+2019-09-06 16:38:26> Program: Starting Squirrel Updater: --releasify MyService.1.0.3.nupkg
+2019-09-06 16:38:26> Program: Bootstrapper EXE found at:D:\squirrel\Project\MyService\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-09-06 16:38:26> Program: Creating release package: D:\squirrel\Project\MyService\Releases\MyService.1.0.3.nupkg
+2019-09-06 16:38:26> ReleasePackage: Creating release package: D:\squirrel\Project\MyService\Releases\MyService.1.0.3.nupkg => D:\squirrel\Project\MyService\Releases\MyService-1.0.3-full.nupkg
+2019-09-06 16:38:27> ReleasePackage: Extracting dependent packages: []
+2019-09-06 16:38:27> ReleasePackage: Removing unnecessary data
+2019-09-06 16:38:27> ReleasePackage: No release notes found in C:\Users\SSS\AppData\Local\SquirrelTemp\tempa\MyService.nuspec
+2019-09-06 16:38:27> DeltaPackageBuilder: Extracting .\Releases\MyService-1.0.2-full.nupkg and D:\squirrel\Project\MyService\Releases\MyService-1.0.3-full.nupkg into C:\Users\SSS\AppData\Local\SquirrelTemp\tempb
+2019-09-06 16:38:27> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.dll hasn't changed, writing dummy file
+2019-09-06 16:38:27> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.MsDelta.dll hasn't changed, writing dummy file
+2019-09-06 16:38:27> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.PatchApi.dll hasn't changed, writing dummy file
+2019-09-06 16:38:27> DeltaPackageBuilder: \lib\net45\Mono.Cecil.dll hasn't changed, writing dummy file
+2019-09-06 16:38:27> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Mdb.dll hasn't changed, writing dummy file
+2019-09-06 16:38:27> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Pdb.dll hasn't changed, writing dummy file
+2019-09-06 16:38:27> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Rocks.dll hasn't changed, writing dummy file
+2019-09-06 16:38:27> DeltaPackageBuilder: Delta patching C:\Users\SSS\AppData\Local\SquirrelTemp\tempa\lib\net45\MyService.exe => C:\Users\SSS\AppData\Local\SquirrelTemp\tempb\lib\net45\MyService.exe
+2019-09-06 16:38:27> DeltaPackageBuilder: \lib\net45\MyService.exe.config hasn't changed, writing dummy file
+2019-09-06 16:38:27> DeltaPackageBuilder: Delta patching C:\Users\SSS\AppData\Local\SquirrelTemp\tempa\lib\net45\MyService_ExecutionStub.exe => C:\Users\SSS\AppData\Local\SquirrelTemp\tempb\lib\net45\MyService_ExecutionStub.exe
+2019-09-06 16:38:28> DeltaPackageBuilder: \lib\net45\NuGet.Squirrel.dll hasn't changed, writing dummy file
+2019-09-06 16:38:28> DeltaPackageBuilder: \lib\net45\SharpCompress.dll hasn't changed, writing dummy file
+2019-09-06 16:38:28> DeltaPackageBuilder: \lib\net45\Splat.dll hasn't changed, writing dummy file
+2019-09-06 16:38:28> DeltaPackageBuilder: \lib\net45\Squirrel.dll hasn't changed, writing dummy file
+2019-09-06 16:38:28> Program: Building embedded zip file for Setup.exe
+2019-09-06 16:40:25> Program: Starting Squirrel Updater: --releasify MyService.1.0.0.3.nupkg
+2019-09-06 16:40:25> Program: Bootstrapper EXE found at:D:\squirrel\Project\MyService\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-09-06 16:40:25> Program: Creating release package: D:\squirrel\Project\MyService\Releases\MyService.1.0.0.3.nupkg
+2019-09-06 16:40:25> Unhandled exception: System.Exception: Your package version is currently 1.0.0.3, which is *not* SemVer-compatible, change this to be a SemVer version number
+   at Squirrel.ReleasePackage.CreateReleasePackage(String outputFile, String packagesRootDir, Func`2 releaseNotesProcessor, Action`1 contentsPostProcessHook)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, String frameworkVersion, Boolean generateDeltas)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+2019-09-06 16:40:48> Program: Starting Squirrel Updater: --releasify MyService.1.0.0.3.nupkg
+2019-09-06 16:40:48> Program: Bootstrapper EXE found at:D:\squirrel\Project\MyService\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-09-06 16:40:48> Program: Creating release package: D:\squirrel\Project\MyService\Releases\MyService.1.0.0.3.nupkg
+2019-09-06 16:40:48> Unhandled exception: System.Exception: Your package version is currently 1.0.0.3, which is *not* SemVer-compatible, change this to be a SemVer version number
+   at Squirrel.ReleasePackage.CreateReleasePackage(String outputFile, String packagesRootDir, Func`2 releaseNotesProcessor, Action`1 contentsPostProcessHook)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, String frameworkVersion, Boolean generateDeltas)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+2019-09-06 16:42:38> Program: Starting Squirrel Updater: --releasify MyService.1.0.0.3.nupkg
+2019-09-06 16:42:38> Program: Bootstrapper EXE found at:D:\squirrel\Project\MyService\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-09-06 16:42:38> Program: Creating release package: D:\squirrel\Project\MyService\Releases\MyService.1.0.0.3.nupkg
+2019-09-06 16:42:38> Unhandled exception: System.Exception: Your package version is currently 1.0.0.3, which is *not* SemVer-compatible, change this to be a SemVer version number
+   at Squirrel.ReleasePackage.CreateReleasePackage(String outputFile, String packagesRootDir, Func`2 releaseNotesProcessor, Action`1 contentsPostProcessHook)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, String frameworkVersion, Boolean generateDeltas)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+2019-09-06 16:47:20> Program: Starting Squirrel Updater: --releasify MyService.1.0.0.3.nupkg
+2019-09-06 16:47:20> Program: Bootstrapper EXE found at:D:\squirrel\Project\MyService\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-09-06 16:47:20> Program: Creating release package: D:\squirrel\Project\MyService\Releases\MyService.1.0.0.3.nupkg
+2019-09-06 16:47:20> Unhandled exception: System.Exception: Your package version is currently 1.0.0.3, which is *not* SemVer-compatible, change this to be a SemVer version number
+   at Squirrel.ReleasePackage.CreateReleasePackage(String outputFile, String packagesRootDir, Func`2 releaseNotesProcessor, Action`1 contentsPostProcessHook)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, String frameworkVersion, Boolean generateDeltas)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+2019-09-06 16:49:27> Program: Starting Squirrel Updater: --releasify MyService.1.0.3.nupkg
+2019-09-06 16:49:27> Program: Bootstrapper EXE found at:D:\squirrel\Project\MyService\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-09-06 16:49:27> Program: Creating release package: D:\squirrel\Project\MyService\Releases\MyService.1.0.3.nupkg
+2019-09-06 16:49:28> ReleasePackage: Creating release package: D:\squirrel\Project\MyService\Releases\MyService.1.0.3.nupkg => D:\squirrel\Project\MyService\Releases\MyService-1.0.3-full.nupkg
+2019-09-06 16:49:28> ReleasePackage: Extracting dependent packages: []
+2019-09-06 16:49:28> ReleasePackage: Removing unnecessary data
+2019-09-06 16:49:28> ReleasePackage: No release notes found in C:\Users\SSS\AppData\Local\SquirrelTemp\tempa\MyService.nuspec
+2019-09-06 16:49:28> DeltaPackageBuilder: Extracting .\Releases\MyService-1.0.2-full.nupkg and D:\squirrel\Project\MyService\Releases\MyService-1.0.3-full.nupkg into C:\Users\SSS\AppData\Local\SquirrelTemp\tempb
+2019-09-06 16:49:28> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.dll hasn't changed, writing dummy file
+2019-09-06 16:49:28> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.MsDelta.dll hasn't changed, writing dummy file
+2019-09-06 16:49:28> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.PatchApi.dll hasn't changed, writing dummy file
+2019-09-06 16:49:28> DeltaPackageBuilder: \lib\net45\Mono.Cecil.dll hasn't changed, writing dummy file
+2019-09-06 16:49:28> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Mdb.dll hasn't changed, writing dummy file
+2019-09-06 16:49:28> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Pdb.dll hasn't changed, writing dummy file
+2019-09-06 16:49:28> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Rocks.dll hasn't changed, writing dummy file
+2019-09-06 16:49:29> DeltaPackageBuilder: Delta patching C:\Users\SSS\AppData\Local\SquirrelTemp\tempa\lib\net45\MyService.exe => C:\Users\SSS\AppData\Local\SquirrelTemp\tempb\lib\net45\MyService.exe
+2019-09-06 16:49:29> DeltaPackageBuilder: \lib\net45\MyService.exe.config hasn't changed, writing dummy file
+2019-09-06 16:49:29> DeltaPackageBuilder: Delta patching C:\Users\SSS\AppData\Local\SquirrelTemp\tempa\lib\net45\MyService_ExecutionStub.exe => C:\Users\SSS\AppData\Local\SquirrelTemp\tempb\lib\net45\MyService_ExecutionStub.exe
+2019-09-06 16:49:29> DeltaPackageBuilder: \lib\net45\NuGet.Squirrel.dll hasn't changed, writing dummy file
+2019-09-06 16:49:29> DeltaPackageBuilder: \lib\net45\SharpCompress.dll hasn't changed, writing dummy file
+2019-09-06 16:49:29> DeltaPackageBuilder: \lib\net45\Splat.dll hasn't changed, writing dummy file
+2019-09-06 16:49:29> DeltaPackageBuilder: \lib\net45\Squirrel.dll hasn't changed, writing dummy file
+2019-09-06 16:49:29> Program: Building embedded zip file for Setup.exe
+2019-09-06 16:51:46> Program: Starting Squirrel Updater: --releasify MyService.1.0.0.3.nupkg
+2019-09-06 16:51:46> Program: Bootstrapper EXE found at:D:\squirrel\Project\MyService\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-09-06 16:51:46> Program: Creating release package: D:\squirrel\Project\MyService\Releases\MyService.1.0.0.3.nupkg
+2019-09-06 16:51:46> Unhandled exception: System.Exception: Your package version is currently 1.0.0.3, which is *not* SemVer-compatible, change this to be a SemVer version number
+   at Squirrel.ReleasePackage.CreateReleasePackage(String outputFile, String packagesRootDir, Func`2 releaseNotesProcessor, Action`1 contentsPostProcessHook)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, String frameworkVersion, Boolean generateDeltas)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+2019-09-06 16:52:42> Program: Starting Squirrel Updater: --releasify MyService.1.0.3.nupkg
+2019-09-06 16:52:42> Program: Bootstrapper EXE found at:D:\squirrel\Project\MyService\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-09-06 16:52:42> Program: Creating release package: D:\squirrel\Project\MyService\Releases\MyService.1.0.3.nupkg
+2019-09-06 16:52:42> ReleasePackage: Creating release package: D:\squirrel\Project\MyService\Releases\MyService.1.0.3.nupkg => D:\squirrel\Project\MyService\Releases\MyService-1.0.3-full.nupkg
+2019-09-06 16:52:43> ReleasePackage: Extracting dependent packages: []
+2019-09-06 16:52:43> ReleasePackage: Removing unnecessary data
+2019-09-06 16:52:43> ReleasePackage: No release notes found in C:\Users\SSS\AppData\Local\SquirrelTemp\tempa\MyService.nuspec
+2019-09-06 16:52:43> Program: Building embedded zip file for Setup.exe
+2019-09-06 20:00:39> Program: Starting Squirrel Updater: --releasify Gateway.6.0.0.nupkg
+2019-09-06 20:00:39> Program: Bootstrapper EXE found at:D:\squirrel\Project\MyService\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-09-06 20:00:40> Program: Creating release package: D:\squirrel\Project\MyService\Releases\Gateway.6.0.0.nupkg
+2019-09-06 20:00:40> ReleasePackage: Creating release package: D:\squirrel\Project\MyService\Releases\Gateway.6.0.0.nupkg => D:\squirrel\Project\MyService\Releases\Gateway-6.0.0-full.nupkg
+2019-09-06 20:00:40> ReleasePackage: Extracting dependent packages: []
+2019-09-06 20:00:40> ReleasePackage: Removing unnecessary data
+2019-09-06 20:00:40> ReleasePackage: No release notes found in C:\Users\SSS\AppData\Local\SquirrelTemp\tempa\Gateway.nuspec
+2019-09-06 20:00:47> DeltaPackageBuilder: Extracting .\Releases\MyService-1.0.3-full.nupkg and D:\squirrel\Project\MyService\Releases\Gateway-6.0.0-full.nupkg into C:\Users\SSS\AppData\Local\SquirrelTemp\tempb
+2019-09-06 20:00:50> DeltaPackageBuilder: \lib\net45\Twinpod.Cloud.Gateway.msi not found in base package, marking as new
+2019-09-06 20:01:00> Program: Building embedded zip file for Setup.exe
+2019-09-09 11:30:41> Program: Starting Squirrel Updater: --releasify Gateway.7.0.0.nupkg
+2019-09-09 11:30:41> Program: Bootstrapper EXE found at:D:\squirrel\Project\MyService\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-09-09 11:30:41> Program: Creating release package: D:\squirrel\Project\MyService\Releases\Gateway.7.0.0.nupkg
+2019-09-09 11:30:41> ReleasePackage: Creating release package: D:\squirrel\Project\MyService\Releases\Gateway.7.0.0.nupkg => D:\squirrel\Project\MyService\Releases\Gateway-7.0.0-full.nupkg
+2019-09-09 11:30:42> ReleasePackage: Extracting dependent packages: []
+2019-09-09 11:30:42> ReleasePackage: Removing unnecessary data
+2019-09-09 11:30:42> ReleasePackage: No release notes found in C:\Users\SSS\AppData\Local\SquirrelTemp\tempa\Gateway.nuspec
+2019-09-09 11:30:46> DeltaPackageBuilder: Extracting .\Releases\Gateway-6.0.0-full.nupkg and D:\squirrel\Project\MyService\Releases\Gateway-7.0.0-full.nupkg into C:\Users\SSS\AppData\Local\SquirrelTemp\tempb
+2019-09-09 11:30:51> DeltaPackageBuilder: \lib\net45\Twinpod.Cloud.Gateway.msi hasn't changed, writing dummy file
+2019-09-09 11:30:54> Program: Building embedded zip file for Setup.exe
+2019-09-09 12:34:15> Program: Starting Squirrel Updater: --releasify Gateway.7.0.0.nupkg
+2019-09-09 12:34:15> Program: Bootstrapper EXE found at:D:\squirrel\Project\MyService\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-09-09 12:34:15> Program: Creating release package: D:\squirrel\Project\MyService\Releases\Gateway.7.0.0.nupkg
+2019-09-09 12:34:15> ReleasePackage: Creating release package: D:\squirrel\Project\MyService\Releases\Gateway.7.0.0.nupkg => D:\squirrel\Project\MyService\Releases\Gateway-7.0.0-full.nupkg
+2019-09-09 12:34:15> ReleasePackage: Extracting dependent packages: []
+2019-09-09 12:34:15> ReleasePackage: Removing unnecessary data
+2019-09-09 12:34:15> ReleasePackage: No release notes found in C:\Users\SSS\AppData\Local\SquirrelTemp\tempa\Gateway.nuspec
+2019-09-09 12:34:16> DeltaPackageBuilder: Extracting .\Releases\Gateway-6.0.0-full.nupkg and D:\squirrel\Project\MyService\Releases\Gateway-7.0.0-full.nupkg into C:\Users\SSS\AppData\Local\SquirrelTemp\tempb
+2019-09-09 12:34:17> DeltaPackageBuilder: Delta patching C:\Users\SSS\AppData\Local\SquirrelTemp\tempa\lib\net45\Twinpod.Cloud.Gateway.msi => C:\Users\SSS\AppData\Local\SquirrelTemp\tempb\lib\net45\Twinpod.Cloud.Gateway.msi
+2019-09-09 12:37:34> Program: Building embedded zip file for Setup.exe
+2019-09-09 12:41:17> Program: Starting Squirrel Updater: --releasify Gateway.8.0.0.nupkg
+2019-09-09 12:41:17> Program: Bootstrapper EXE found at:D:\squirrel\Project\MyService\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-09-09 12:41:17> Program: Creating release package: D:\squirrel\Project\MyService\Releases\Gateway.8.0.0.nupkg
+2019-09-09 12:41:17> ReleasePackage: Creating release package: D:\squirrel\Project\MyService\Releases\Gateway.8.0.0.nupkg => D:\squirrel\Project\MyService\Releases\Gateway-8.0.0-full.nupkg
+2019-09-09 12:41:17> ReleasePackage: Extracting dependent packages: []
+2019-09-09 12:41:17> ReleasePackage: Removing unnecessary data
+2019-09-09 12:41:17> ReleasePackage: No release notes found in C:\Users\SSS\AppData\Local\SquirrelTemp\tempa\Gateway.nuspec
+2019-09-09 12:41:18> DeltaPackageBuilder: Extracting .\Releases\Gateway-7.0.0-full.nupkg and D:\squirrel\Project\MyService\Releases\Gateway-8.0.0-full.nupkg into C:\Users\SSS\AppData\Local\SquirrelTemp\tempb
+2019-09-09 12:41:19> DeltaPackageBuilder: \lib\net45\Twinpod.Cloud.Gateway.msi hasn't changed, writing dummy file
+2019-09-09 12:41:19> Program: Building embedded zip file for Setup.exe
+2019-09-09 12:50:28> Program: Starting Squirrel Updater: --releasify Gateway.9.0.0.nupkg
+2019-09-09 12:50:28> Program: Bootstrapper EXE found at:D:\squirrel\Project\MyService\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2019-09-09 12:50:28> Program: Creating release package: D:\squirrel\Project\MyService\Releases\Gateway.9.0.0.nupkg
+2019-09-09 12:50:28> ReleasePackage: Creating release package: D:\squirrel\Project\MyService\Releases\Gateway.9.0.0.nupkg => D:\squirrel\Project\MyService\Releases\Gateway-9.0.0-full.nupkg
+2019-09-09 12:50:28> ReleasePackage: Extracting dependent packages: []
+2019-09-09 12:50:28> ReleasePackage: Removing unnecessary data
+2019-09-09 12:50:28> ReleasePackage: No release notes found in C:\Users\SSS\AppData\Local\SquirrelTemp\tempa\Gateway.nuspec
+2019-09-09 12:50:29> DeltaPackageBuilder: Extracting .\Releases\Gateway-8.0.0-full.nupkg and D:\squirrel\Project\MyService\Releases\Gateway-9.0.0-full.nupkg into C:\Users\SSS\AppData\Local\SquirrelTemp\tempb
+2019-09-09 12:50:30> DeltaPackageBuilder: \lib\net45\Twinpod.Cloud.Gateway.msi hasn't changed, writing dummy file
+2019-09-09 12:50:30> Program: Building embedded zip file for Setup.exe

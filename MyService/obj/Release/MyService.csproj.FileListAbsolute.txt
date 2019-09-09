@@ -1,3 +1,4 @@
+D:\squirrel\Project\MyService\MyService\bin\Release\Squirrel.dll
 D:\squirrel\Project\MyService\MyService\bin\Release\MyService.exe.config
 D:\squirrel\Project\MyService\MyService\bin\Release\MyService.exe
 D:\squirrel\Project\MyService\MyService\bin\Release\MyService.pdb
@@ -11,7 +12,6 @@ D:\squirrel\Project\MyService\MyService\bin\Release\Mono.Cecil.Rocks.dll
 D:\squirrel\Project\MyService\MyService\bin\Release\NuGet.Squirrel.dll
 D:\squirrel\Project\MyService\MyService\bin\Release\SharpCompress.dll
 D:\squirrel\Project\MyService\MyService\bin\Release\Splat.dll
-D:\squirrel\Project\MyService\MyService\bin\Release\Squirrel.dll
 D:\squirrel\Project\MyService\MyService\bin\Release\NuGet.Squirrel.pdb
 D:\squirrel\Project\MyService\MyService\bin\Release\Splat.pdb
 D:\squirrel\Project\MyService\MyService\bin\Release\Squirrel.pdb

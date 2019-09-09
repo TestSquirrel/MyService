@@ -1,6 +1,7 @@
 ﻿using Squirrel;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Net;
 using System.ServiceProcess;
@@ -39,10 +40,16 @@ namespace MyService
             //} 
             try
             {
-
+                FileVersionInfo versionInfo = FileVersionInfo.GetVersionInfo(@"C:\Program Files (x86)\Twinpod\latestServices\Twinpod.CloudPACS.Gateway.exe");
+                var version = versionInfo.FileVersion;
                 using (var mgr = UpdateManager.GitHubUpdateManager("https://github.com/TestSquirrel/MyService", prerelease: true /*accessToken: "672e669504503a78358577280343cbdd2fb19dea"*/))
                 {
-                    await mgr.Result.UpdateApp();
+                    var update = await mgr.Result.CheckForUpdate();
+                    var gitversion = update.CurrentlyInstalledVersion.Version;
+                    if (update.ReleasesToApply.Count() > 0)
+                    {
+                        await mgr.Result.UpdateApp();
+                    }
                 }
             }
             catch (Exception ex)
